@@ -131,13 +131,11 @@ body {
 }
 
 /* ====================== CARDS ====================== */
-/* ===== MOBILE GRID ===== */
-@media(max-width:600px){
-    .cars{
-        grid-template-columns:repeat(2, 1fr); /* 2 colonnes */
-        padding:20px; /* réduire le padding pour mobile */
-        gap:15px; /* réduire l’espace entre les cartes */
-    }
+.cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    gap: 30px;
+    padding: 60px;
 }
 
 .car-card {
@@ -392,7 +390,7 @@ body {
 /* ====================== RESPONSIVE MOBILE ====================== */
 @media(max-width: 900px){
     .header {
-        height:40vh;
+        height:90vh;
     }
     .header-content h1 {
         font-size:40px;
