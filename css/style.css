@@ -390,7 +390,7 @@ body {
 /* ====================== RESPONSIVE MOBILE ====================== */
 @media(max-width: 900px){
     .header {
-        height:90vh;
+        height:60vh;
     }
     .header-content h1 {
         font-size:40px;
