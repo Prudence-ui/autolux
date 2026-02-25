@@ -64,7 +64,7 @@ body {
 /* ====================== HEADER VIDEO ====================== */
 .header {
     position: relative;
-    height: 90vh;
+    height: 60vh;
     overflow: hidden;
 }
 
@@ -131,11 +131,13 @@ body {
 }
 
 /* ====================== CARDS ====================== */
-.cars {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-    gap: 30px;
-    padding: 60px;
+/* ===== MOBILE GRID ===== */
+@media(max-width:600px){
+    .cars{
+        grid-template-columns:repeat(2, 1fr); /* 2 colonnes */
+        padding:20px; /* réduire le padding pour mobile */
+        gap:15px; /* réduire l’espace entre les cartes */
+    }
 }
 
 .car-card {
@@ -390,7 +392,7 @@ body {
 /* ====================== RESPONSIVE MOBILE ====================== */
 @media(max-width: 900px){
     .header {
-        height:60vh;
+        height:40vh;
     }
     .header-content h1 {
         font-size:40px;
