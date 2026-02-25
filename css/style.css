@@ -1,0 +1,613 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+
+/* BODY */
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* ===== HEADER VIDEO ===== */
+
+/* ===== HEADER VIDEO ===== */
+
+.header{
+    position:relative;
+    height:90vh;
+    overflow:hidden;
+}
+
+/* VIDEO BACKGROUND */
+
+.video-bg{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1;
+    filter:brightness(40%);
+}
+
+/* TEXTE PAR DESSUS */
+
+.header-content{
+    position:relative;
+    z-index:2;
+    text-align:center;
+    top:45%;
+    transform:translateY(-50%);
+}
+
+.header-content h1{
+    font-size:65px;
+    letter-spacing:2px;
+}
+
+.header-content p{
+    color:#cbd5e1;
+    margin-top:10px;
+    font-size:20px;
+}
+
+.header::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        to bottom,
+        rgba(2,6,23,0.6),
+        rgba(2,6,23,0.9)
+    );
+}   
+
+/* ===== SECTION VOITURES ===== */
+
+.cars{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    padding:60px;
+}
+
+/* CARTE */
+
+.car-card{
+    background:#111827;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.car-card:hover{
+    transform:translateY(-8px);
+}
+
+.car-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.car-info{
+    padding:15px;
+}
+
+.car-info h3{
+    margin-bottom:8px;
+}
+
+.price{
+    color:#22c55e;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+/* BOUTON */
+
+.btn{
+    display:inline-block;
+    padding:10px 18px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(15,23,42,0.85);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+/* LOGO */
+
+.logo{
+    font-size:30px;
+    font-weight:700;
+    background:linear-gradient(90deg,#ffffff,#60a5fa);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    letter-spacing:3px;
+}
+/* MENU */
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#cbd5e1;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:white;
+}
+
+/* ===== LIGNE DE RECHERCHE  ===== */
+
+.search-box{
+    margin-top:25px;
+}
+
+.search-box input{
+    width:400px;
+    max-width:90%;
+    padding:14px 20px;
+    border-radius:30px;
+    border:none;
+    outline:none;
+    font-size:16px;
+    background:#111827;
+    color:white;
+    box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.car-card{
+    opacity:0;
+    transform:translateY(40px);
+    animation:fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp{
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+
+/* ===== WHATSAPP FLOTANT ===== */
+
+.whatsapp-float{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    font-size:28px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    text-decoration:none;
+    box-shadow:0 5px 20px rgba(0,0,0,0.4);
+    z-index:1000;
+    transition:0.3s;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.1);
+}
+
+/* ===== FOOTER ===== */
+
+.footer{
+    background:#020617;
+    padding:50px 20px;
+    margin-top:40px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.footer h3,
+.footer h4{
+    margin-bottom:10px;
+}
+
+.footer p{
+    color:#cbd5e1;
+    margin:5px 0;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:30px;
+    color:#64748b;
+}
+
+/* ===== PAGE DETAIL ===== */
+
+.car-detail-section{
+    padding:120px 40px 60px;
+    display:flex;
+    justify-content:center;
+}
+
+.car-detail-container{
+    max-width:1100px;
+    width:100%;
+    background:#111827;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+/* IMAGE */
+
+.car-detail-container img{
+    width:100%;
+    border-radius:12px;
+}
+
+/* INFOS */
+
+.car-info-detail h2{
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.car-specs{
+    margin:20px 0;
+    color:#cbd5e1;
+}
+
+.car-specs p{
+    margin:8px 0;
+}
+
+/* PRIX */
+
+.detail-price{
+    font-size:26px;
+    color:#22c55e;
+    margin-bottom:20px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+    .car-detail-container{
+        grid-template-columns:1fr;
+    }
+}
+
+/* ===== SLIDER ===== */
+
+.slider{
+    position:relative;
+}
+
+.slider img{
+    width:100%;
+    border-radius:12px;
+    transition:0.4s ease;
+}
+
+/* BOUTONS */
+
+.slide-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    background:rgba(0,0,0,0.6);
+    border:none;
+    color:white;
+    font-size:28px;
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.slide-btn:hover{
+    background:#2563eb;
+}
+
+.slide-btn.left{
+    left:10px;
+}
+
+.slide-btn.right{
+    right:10px;
+}
+
+/* ===== MINIATURES ===== */
+
+.slider-wrapper{
+    width:100%;
+}
+
+.thumbnails{
+    display:flex;
+    gap:10px;
+    margin-top:15px;
+    justify-content:center;
+}
+
+.thumb{
+    width:90px;
+    height:65px;
+    object-fit:cover;
+    border-radius:8px;
+    cursor:pointer;
+    opacity:0.6;
+    transition:0.3s;
+}
+
+.thumb:hover{
+    opacity:1;
+    transform:scale(1.05);
+}
+
+/* ===== ZOOM MODAL ===== */
+
+.zoom-modal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.9);
+    justify-content:center;
+    align-items:center;
+    z-index:2000;
+}
+
+.zoom-modal img{
+    max-width:90%;
+    max-height:90%;
+    border-radius:10px;
+}
+
+/* ===== STATISTIQUES PREMIUM ===== */
+
+.stats{
+    background:#0b0b0b;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.stats-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:40px;
+}
+
+.stat h2{
+    font-size:48px;
+    color:#d4af37; /* OR LUXE */
+    margin-bottom:10px;
+}
+
+.stat p{
+    color:#ccc;
+    font-size:18px;
+}
+
+.lang-select{
+    background:#111;
+    color:white;
+    border:1px solid #d4af37;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.slider{
+position:relative;
+max-width:600px;
+margin:auto;
+}
+
+.slide{
+width:100%;
+display:none;
+border-radius:10px;
+}
+
+.prev, .next{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:black;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+font-size:20px;
+}
+
+.prev{left:10px;}
+.next{right:10px;}
+
+.car-detail-grid{
+display:grid;
+grid-template-columns: 1.3fr 1fr;
+gap:40px;
+padding:60px 8%;
+}
+
+.car-gallery img{
+width:100%;
+margin-bottom:15px;
+border-radius:12px;
+}
+
+.car-info-detail h2{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.car-stats p{
+margin:6px 0;
+}
+
+.contact-btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 28px;
+background:#000;
+color:#fff;
+text-decoration:none;
+border-radius:8px;
+}
+
+
+/* ======================
+   PREMIUM SLIDER AUTOLUX
+====================== */
+
+.premium-slider{
+position:relative;
+width:100%;
+max-width:700px;
+}
+
+.slides{
+position:relative;
+overflow:hidden;
+border-radius:12px;
+}
+
+.slide{
+width:100%;
+display:none;
+animation:fade .6s ease;
+}
+
+.slide.active{
+display:block;
+}
+
+@keyframes fade{
+from{opacity:.4}
+to{opacity:1}
+}
+
+/* arrows */
+
+.prev,
+.next{
+position:absolute;
+top:45%;
+transform:translateY(-50%);
+background:rgba(0,0,0,.6);
+color:white;
+border:none;
+font-size:22px;
+padding:10px 14px;
+cursor:pointer;
+border-radius:6px;
+}
+
+.prev{ left:10px; }
+.next{ right:10px; }
+
+.prev:hover,
+.next:hover{
+background:black;
+}
+
+/* thumbnails */
+
+.thumbnails{
+display:flex;
+gap:10px;
+margin-top:12px;
+overflow-x:auto;
+}
+
+.thumb{
+width:90px;
+height:60px;
+object-fit:cover;
+cursor:pointer;
+opacity:.6;
+border-radius:6px;
+transition:.3s;
+}
+
+.thumb.active,
+.thumb:hover{
+opacity:1;
+transform:scale(1.05);
+border:2px solid #000;
+}
+
+
+/* ======================
+   IMAGE ZOOM PREMIUM
+====================== */
+
+.zoom-container{
+overflow:hidden;
+border-radius:12px;
+cursor:zoom-in;
+}
+
+.zoom-container img{
+width:100%;
+transition:transform .25s ease;
+}
+
+.zoom-container:hover img{
+transform:scale(1.25);
+}
