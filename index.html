@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoLux - Vente de Voitures</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,19 +19,21 @@
             <li><a href="#footer" data-i18n="contact">Contact</a></li>
         </ul>
 
-<select id="languageSwitcher" class="lang-select">
-    <option value="fr">FR</option>
-    <option value="en">EN</option>
-    <option value="it">IT</option>
-    <option value="de">DE</option>
-    <option value="es">ES</option>
-    <option value="pt">PT</option>
-</select>
+        <!-- BURGER MENU MOBILE -->
+        <div class="burger" onclick="document.querySelector('.nav-links').classList.toggle('show')">☰</div>
+
+        <select id="languageSwitcher" class="lang-select">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="de">DE</option>
+            <option value="es">ES</option>
+            <option value="pt">PT</option>
+        </select>
 
         <div class="logo">AutoLux</div>
     </div>
 </nav>
-
 
 <!-- HEADER VIDEO -->
 <header class="header">
@@ -38,81 +41,66 @@
         <source src="./videos/header.mp4" type="video/mp4">
     </video>
 
-<div class="header-content">
-    <h1>AutoLux</h1>
-    <p data-i18n="title">International Premium Car Marketplace</p>
+    <div class="header-content">
+        <h1>AutoLux</h1>
+        <p data-i18n="title">International Premium Car Marketplace</p>
 
-    <div class="search-box">
-        <input type="text" id="searchInput"
-            data-i18n-placeholder="search"
-            placeholder="Rechercher une voiture">
+        <div class="search-box">
+            <input type="text" id="searchInput"
+                data-i18n-placeholder="search"
+                placeholder="Rechercher une voiture">
+        </div>
     </div>
-</div>
-
 </header>
 
 <!-- STATISTIQUES -->
 <section class="stats">
-<div class="stats-container">
-
-<div class="stat">
-<h2 class="counter" data-target="500">0</h2>
-<p data-i18n="sold">Voitures vendues</p>
-</div>
-
-<div class="stat">
-<h2 class="counter" data-target="35">0</h2>
-<p data-i18n="countries">Pays desservis</p>
-</div>
-
-<div class="stat">
-<h2 class="counter" data-target="1200">0</h2>
-<p data-i18n="clients">Clients satisfaits</p>
-</div>
-
-<div class="stat">
-<h2 class="counter" data-target="24">0</h2>
-<p data-i18n="support">Support 24/7</p>
-</div>
-
-</div>
+    <div class="stats-container">
+        <div class="stat">
+            <h2 class="counter" data-target="500">0</h2>
+            <p data-i18n="sold">Voitures vendues</p>
+        </div>
+        <div class="stat">
+            <h2 class="counter" data-target="35">0</h2>
+            <p data-i18n="countries">Pays desservis</p>
+        </div>
+        <div class="stat">
+            <h2 class="counter" data-target="1200">0</h2>
+            <p data-i18n="clients">Clients satisfaits</p>
+        </div>
+        <div class="stat">
+            <h2 class="counter" data-target="24">0</h2>
+            <p data-i18n="support">Support 24/7</p>
+        </div>
+    </div>
 </section>
 
 <!-- LISTE VOITURES -->
 <section class="cars" id="cars-container"></section>
 
-<script src="js/script.js"></script>
-
+<!-- WHATSAPP FLOAT -->
 <a href="https://wa.me/229XXXXXXXX" class="whatsapp-float" target="_blank">💬</a>
 
+<!-- FOOTER -->
 <footer class="footer" id="footer">
-
-<div class="footer-container">
-
-<div>
-<h3>AutoLux</h3>
-<p data-i18n="footer_desc">International Premium Car Marketplace.</p>
-</div>
-
-<div>
-<h4 data-i18n="navigation">Navigation</h4>
-<p data-i18n="home">Accueil</p>
-<p data-i18n="cars">Voitures</p>
-<p data-i18n="contact">Contact</p>
-</div>
-
-<div>
-<h4 data-i18n="contact">Contact</h4>
-<p>Email: contact@autolux.com</p>
-</div>
-
-</div>
-
-<p class="copyright">
-© 2026 AutoLux — All rights reserved
-</p>
-
+    <div class="footer-container">
+        <div>
+            <h3>AutoLux</h3>
+            <p data-i18n="footer_desc">International Premium Car Marketplace.</p>
+        </div>
+        <div>
+            <h4 data-i18n="navigation">Navigation</h4>
+            <p data-i18n="home">Accueil</p>
+            
+        </div>
+        <div>
+            <h4 data-i18n="contact">Contact</h4>
+            <p>Email: contact@autolux.com</p>
+        </div>
+    </div>
+    <p class="copyright">© 2026 AutoLux — All rights reserved</p>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>

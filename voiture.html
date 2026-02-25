@@ -9,63 +9,60 @@
 
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar">
-<div class="nav-container">
+    <div class="nav-container">
 
-<ul class="nav-links">
-<li><a href="index.html" data-i18n="home">Accueil</a></li>
-<li><a href="index.html#cars-container" data-i18n="cars">Voitures</a></li>
-<li><a href="#footer" data-i18n="contact">Contact</a></li>
-</ul>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="home">Accueil</a></li>
+            <li><a href="index.html#cars-container" data-i18n="cars">Voitures</a></li>
+            <li><a href="#footer" data-i18n="contact">Contact</a></li>
+        </ul>
 
-<select id="languageSwitcher" class="lang-select">
-<option value="fr">FR</option>
-<option value="en">EN</option>
-<option value="it">IT</option>
-<option value="de">DE</option>
-<option value="es">ES</option>
-<option value="pt">PT</option>
-</select>
+        <!-- BURGER MENU MOBILE -->
+        <div class="burger" onclick="document.querySelector('.nav-links').classList.toggle('show')">☰</div>
 
-<div class="logo">AutoLux</div>
+        <select id="languageSwitcher" class="lang-select">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="de">DE</option>
+            <option value="es">ES</option>
+            <option value="pt">PT</option>
+        </select>
 
-</div>
+        <div class="logo">AutoLux</div>
+    </div>
 </nav>
 
+<!-- CAR DETAIL SECTION -->
 <section class="car-detail-section">
-<div id="car-detail" class="car-detail-container"></div>
+    <div id="car-detail" class="car-detail-container"></div>
 </section>
 
+<!-- WHATSAPP FLOAT -->
 <a href="https://wa.me/229XXXXXXXX" class="whatsapp-float" target="_blank">💬</a>
 
+<!-- FOOTER -->
 <footer class="footer" id="footer">
-
-<div class="footer-container">
-
-<div>
-<h3>AutoLux</h3>
-<p data-i18n="footer_desc">International Premium Car Marketplace.</p>
-</div>
-
-<div>
-<h4 data-i18n="navigation">Navigation</h4>
-<p><a href="index.html" data-i18n="home">Accueil</a></p>
-<p><a href="index.html#cars-container" data-i18n="cars">Voitures</a></p>
-<p data-i18n="contact">Contact</p>
-</div>
-
-<div>
-<h4 data-i18n="contact">Contact</h4>
-<p>Email: contact@autolux.com</p>
-<p>WhatsApp: +229 XX XX XX XX</p>
-</div>
-
-</div>
-
-<p class="copyright">
-© 2026 AutoLux — All rights reserved
-</p>
-
+    <div class="footer-container">
+        <div>
+            <h3>AutoLux</h3>
+            <p data-i18n="footer_desc">International Premium Car Marketplace.</p>
+        </div>
+        <div>
+            <h4 data-i18n="navigation">Navigation</h4>
+            <p><a href="index.html" data-i18n="home">Accueil</a></p>
+            <p><a href="index.html#cars-container" data-i18n="cars">Voitures</a></p>
+            <p data-i18n="contact">Contact</p>
+        </div>
+        <div>
+            <h4 data-i18n="contact">Contact</h4>
+            <p>Email: contact@autolux.com</p>
+            <p>WhatsApp: +229 XX XX XX XX</p>
+        </div>
+    </div>
+    <p class="copyright">© 2026 AutoLux — All rights reserved</p>
 </footer>
 
 <script src="js/script.js"></script>
