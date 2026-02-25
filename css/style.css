@@ -326,46 +326,6 @@ width:100%;
 
 /* ===== SLIDER ARROWS FIX ===== */
 
-.prev,
-.next{
-position:absolute;
-top:50%;
-transform:translateY(-50%);
-width:44px;
-height:44px;
-border-radius:50%;
-border:none;
-background:rgba(0,0,0,0.55);
-color:white;
-font-size:22px;
-cursor:pointer;
-display:flex;
-align-items:center;
-justify-content:center;
-z-index:10;
-transition:0.3s;
-}
-
-/* gauche */
-.prev{
-left:12px;
-}
-
-/* droite */
-.next{
-right:12px;
-}
-
-.prev:hover,
-.next:hover{
-background:black;
-transform:translateY(-50%) scale(1.1);
-}
-
-.prev:hover,
-.next:hover{
-    background:black;
-}
 
 .thumbnails{
     display:flex;
@@ -535,18 +495,77 @@ transform:translateY(-50%) scale(1.1);
 
 }
 
-/* ===== MOBILE SLIDER FIX ===== */
+/* ======================
+   AUTOLUX LUXURY ARROWS
+====================== */
+
+.prev,
+.next{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+width:52px;
+height:52px;
+border-radius:50%;
+border:1px solid rgba(255,255,255,0.15);
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:22px;
+color:white;
+cursor:pointer;
+z-index:20;
+
+/* GLASS EFFECT */
+background:rgba(15,23,42,0.55);
+backdrop-filter:blur(12px);
+-webkit-backdrop-filter:blur(12px);
+
+/* SHADOW PREMIUM */
+box-shadow:
+0 8px 25px rgba(0,0,0,0.5),
+inset 0 0 10px rgba(255,255,255,0.05);
+
+transition:all .35s ease;
+}
+
+/* POSITION */
+.prev{ left:15px; }
+.next{ right:15px; }
+
+/* HOVER LUXE */
+.prev:hover,
+.next:hover{
+background:linear-gradient(135deg,#1e293b,#020617);
+transform:translateY(-50%) scale(1.12);
+box-shadow:
+0 0 18px rgba(96,165,250,0.5),
+0 12px 35px rgba(0,0,0,0.8);
+}
+
+/* CLICK EFFECT */
+.prev:active,
+.next:active{
+transform:translateY(-50%) scale(0.95);
+}
+
+/* ======================
+   MOBILE VERSION
+====================== */
 
 @media(max-width:768px){
 
 .prev,
 .next{
-width:38px;
-height:38px;
+width:42px;
+height:42px;
 font-size:18px;
 }
 
-.prev{ left:8px; }
-.next{ right:8px; }
+.prev{ left:10px; }
+.next{ right:10px; }
 
 }
+
