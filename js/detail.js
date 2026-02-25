@@ -157,12 +157,6 @@ showSlide(Number(thumb.dataset.index));
 });
 });
 
-/* autoplay premium */
-
-setInterval(()=>{
-let next=(current+1)%slides.length;
-showSlide(next);
-},5000);
 
 /* init */
 
