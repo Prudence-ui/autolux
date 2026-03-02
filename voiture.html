@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoLux - Détail voiture</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="nav-container">
+
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="home">Accueil</a></li>
+            <li><a href="index.html#cars-container" data-i18n="cars">Voitures</a></li>
+            <li><a href="#footer" data-i18n="contact">Contact</a></li>
+        </ul>
+
+        <!-- BURGER MENU MOBILE -->
+        <div class="burger" onclick="document.querySelector('.nav-links').classList.toggle('show')">☰</div>
+
+        <select id="languageSwitcher" class="lang-select">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="de">DE</option>
+            <option value="es">ES</option>
+            <option value="pt">PT</option>
+        </select>
+
+        <div class="logo">AutoLux</div>
+    </div>
+</nav>
+
+<!-- CAR DETAIL SECTION -->
+<section class="car-detail-section">
+    <div id="car-detail" class="car-detail-container"></div>
+</section>
+
+<!-- WHATSAPP PREMIUM FLOAT -->
+<a href="https://wa.me/229XXXXXXXX"
+   class="whatsapp-float"
+   target="_blank">
+
+    <span class="wa-icon">💬</span>
+    <span class="wa-text">WhatsApp</span>
+
+</a>
+
+
+<!-- ================= AUTOLUX ULTRA FOOTER ================= -->
+<footer class="footer" id="footer">
+
+<div class="footer-glass">
+
+<div class="footer-container">
+
+<!-- MARQUE -->
+<div class="footer-brand">
+<div class="logo">AutoLux</div>
+
+<p>
+AutoLux est une marketplace automobile internationale spécialisée
+dans les véhicules premium et d’exception. Notre mission est de
+connecter acheteurs et vendeurs à travers une expérience digitale
+sécurisée, élégante et transparente.
+</p>
+
+<div class="socials">
+<a href="#">Instagram</a>
+<a href="#">Tiktok</a>
+<a href="#">Facebook</a>
+</div>
+</div>
+
+<!-- NAVIGATION -->
+<div class="footer-column">
+<h4>Navigation</h4>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="index.html#cars-container">Voitures</a></li>
+<li><a href="team.html">Équipe</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="testimonials.html">Témoignages</a></li>
+</ul>
+</div>
+
+<!-- LÉGAL AUTO -->
+<div class="footer-column">
+<h4>Informations légales</h4>
+<ul id="legal-links"></ul>
+</div>
+
+<!-- NEWSLETTER -->
+<div class="footer-column">
+<h4>Club Privé AutoLux</h4>
+
+<p>Recevez en avant-première nos véhicules exclusifs.</p>
+
+<form class="newsletter">
+<input type="email" placeholder="Votre email" required>
+<button type="submit">Rejoindre</button>
+</form>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p id="copyright"></p>
+</div>
+
+</div>
+</footer>
+<!-- ========================================================= -->
+<!-- ========================================================= -->
+
+
+<script src="js/script.js"></script>
+<script src="js/detail.js"></script>
+
+<script>
+
+/* ===== ANNÉE AUTOMATIQUE ===== */
+document.getElementById("copyright").innerHTML =
+"© " + new Date().getFullYear() + " AutoLux — Tous droits réservés.";
+
+
+/* ===== LIENS LÉGAUX AUTO ===== */
+
+const legalPages = [
+    {name:"Conditions de vente", link:"terms.html"},
+    {name:"Politique de confidentialité", link:"privacy.html"},
+    {name:"Mentions légales", link:"legal.html"},
+    {name:"Politique cookies", link:"cookies.html"}
+];
+
+const legalContainer = document.getElementById("legal-links");
+
+legalPages.forEach(page => {
+    const li = document.createElement("li");
+    li.innerHTML = `<a href="${page.link}">${page.name}</a>`;
+    legalContainer.appendChild(li);
+});
+
+</script>
+
+</body>
+</html>

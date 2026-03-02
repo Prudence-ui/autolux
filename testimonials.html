@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoLux - Témoignages Clients</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+<div class="nav-container">
+
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="index.html#cars-container">Voitures</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="logo">AutoLux</div>
+
+</div>
+</nav>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+
+<video autoplay muted loop playsinline class="video-bg">
+<source src="videos/header-testimonials.mp4" type="video/mp4">
+</video>
+
+<div class="header-content">
+<h1>Témoignages Clients</h1>
+<p>L’expérience premium vécue à travers le monde</p>
+</div>
+
+</header>
+
+<!-- ================= INTRO ================= -->
+<section class="testimonials-intro">
+
+<h2>Ils font confiance à AutoLux</h2>
+
+<p>
+Acheteurs internationaux, collectionneurs automobiles et passionnés
+partagent leur expérience avec AutoLux.
+Chaque témoignage reflète notre engagement envers l’excellence,
+la transparence et le luxe digital.
+</p>
+
+</section>
+
+<!-- ================= SLIDER PREMIUM ================= -->
+<section class="testimonial-slider">
+
+<div class="testimonial-track">
+
+<!-- CARD -->
+<div class="testimonial-card reveal-right">
+
+<img src="images/client1.jpg" class="client-avatar">
+
+<div class="stars">★★★★★</div>
+
+<p class="quote">
+AutoLux a totalement transformé mon expérience d’achat automobile.
+Processus fluide, équipe professionnelle et livraison parfaite.
+</p>
+
+<h3>Marc Dubois</h3>
+<span>Paris • France</span>
+
+</div>
+
+<div class="testimonial-card reveal-right">
+
+<img src="images/client2.jpg" class="client-avatar">
+
+<div class="stars">★★★★</div>
+
+<p class="quote">
+Une plateforme élégante et sécurisée.
+Je recommande AutoLux pour tout achat premium international.
+</p>
+
+<h3>Amina Bello</h3>
+<span>Lagos • Nigeria</span>
+
+</div>
+
+<div class="testimonial-card reveal-right">
+
+<img src="images/client3.jpg" class="client-avatar">
+
+<div class="stars">★★★★★</div>
+
+<p class="quote">
+Service client exceptionnel et suivi constant.
+On ressent réellement un standard luxe.
+</p>
+
+<h3>Daniel Weber</h3>
+<span>Berlin • Allemagne</span>
+
+</div>
+
+<div class="testimonial-card reveal-right">
+
+<img src="images/client4.jpg" class="client-avatar">
+
+<div class="stars">★★★★★</div>
+
+<p class="quote">
+AutoLux inspire confiance dès la première interaction.
+Une vraie expérience haut de gamme.
+</p>
+
+<h3>Kevin Johnson</h3>
+<span>Dubai • UAE</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="testimonial-stats">
+
+<div class="stat">
+<h2>98%</h2>
+<p>Clients satisfaits</p>
+</div>
+
+<div class="stat">
+<h2>35+</h2>
+<p>Pays desservis</p>
+</div>
+
+<div class="stat">
+<h2>500+</h2>
+<p>Véhicules vendus</p>
+</div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="testimonials-cta">
+
+<h2>Vivez l’expérience AutoLux</h2>
+
+<a href="index.html#cars-container" class="btn">
+Découvrir nos véhicules
+</a>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer" id="footer">
+
+<div class="footer-glass">
+
+<div class="footer-container">
+
+<div class="footer-brand">
+<div class="logo">AutoLux</div>
+
+<p>
+Marketplace automobile premium internationale connectant
+acheteurs et vendeurs à travers une expérience digitale élégante
+et sécurisée.
+</p>
+</div>
+
+<div class="footer-column">
+<h4>Navigation</h4>
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="team.html">Équipe</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="testimonials.html">Témoignages</a></li>
+</ul>
+</div>
+
+<div class="footer-column">
+<h4>Informations légales</h4>
+<ul id="legal-links"></ul>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+<p id="copyright"></p>
+</div>
+
+</div>
+
+</footer>
+
+<script>
+
+/* ================= SCROLL ANIMATION ================= */
+
+const reveals=document.querySelectorAll('.reveal-right');
+
+function reveal(){
+const h=window.innerHeight;
+
+reveals.forEach(el=>{
+if(el.getBoundingClientRect().top<h-80){
+el.classList.add('active');
+}
+});
+}
+
+window.addEventListener('scroll',reveal);
+
+
+/* ================= AUTO SLIDER ================= */
+
+const track=document.querySelector(".testimonial-track");
+
+let scrollAmount=0;
+
+setInterval(()=>{
+scrollAmount+=320;
+
+if(scrollAmount>=track.scrollWidth-track.clientWidth){
+scrollAmount=0;
+}
+
+track.scrollTo({
+left:scrollAmount,
+behavior:"smooth"
+});
+
+},4000);
+
+</script>
+
+</body>
+</html>
