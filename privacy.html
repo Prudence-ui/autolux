@@ -11,16 +11,28 @@
 
 <!-- NAVBAR -->
 <nav class="navbar">
-<div class="nav-container">
+    <div class="nav-container">
 
-<ul class="nav-links">
-<li><a href="index.html">Accueil</a></li>
-<li><a href="index.html#cars-container">Voitures</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="home">Accueil</a></li>
+            <li><a href="#cars-container" data-i18n="cars">Voitures</a></li>
+            <li><a href="#footer" data-i18n="contact">Contact</a></li>
+        </ul>
 
-<div class="logo">AutoLux</div>
-</div>
+        <!-- BURGER MENU MOBILE -->
+        <div class="burger" onclick="document.querySelector('.nav-links').classList.toggle('show')">☰</div>
+
+        <select id="languageSwitcher" class="lang-select">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+            <option value="de">DE</option>
+            <option value="es">ES</option>
+            <option value="pt">PT</option>
+        </select>
+
+        <div class="logo">Auto Lux Germany</div>
+    </div>
 </nav>
 
 <!-- HEADER -->
