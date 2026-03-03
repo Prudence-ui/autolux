@@ -6,7 +6,7 @@
 const cars = [
 
 {
-name:"BMW M4 Competition",
+name:"HYNDAY TUCSON 2023",
 price:"12 000 €",
 
 description:"",
@@ -55,7 +55,7 @@ whatsapp:"4915124976768"
 
 
 {
-name:"BMW M4 Competition",
+name:"AUDI A3 SPORTBACK",
 price:"8 250 €",
 
 description:"",
@@ -97,7 +97,7 @@ whatsapp:"4915124976768"
 },
 
 {
-name:"BMW M4 Competition",
+name:"AUDI A3 AMBITION",
 price:"6 950 €",
 
 description:"",
@@ -133,7 +133,7 @@ whatsapp:"4915124976768"
 },
 
 {
-name:"BMW M4 Competition",
+name:"VOLVO S40",
 price:"4 000 €",
 
 description:"",
@@ -166,7 +166,7 @@ whatsapp:"4915124976768"
 },
 
 {
-name:"BMW M4 Competition",
+name:"AUDI Q5 S LINE",
 price:"21 000 €",
 
 description:"",
@@ -195,7 +195,7 @@ whatsapp:"4915124976768"
 },
 
 {
-name:"BMW M4 Competition",
+name:"VW GOLF GTD 7 2.0",
 price:"6 500 €",
 
 description:"",
@@ -227,7 +227,7 @@ whatsapp:"4915124976768"
 },
 
 {
-name:"BMW M4 Competition",
+name:"BMW 520d M SPORT",
 price:"20 500 €",
 
 description:"",
@@ -260,7 +260,7 @@ whatsapp:"4915124976768"
 
 
 {
-name:"BMW M4 Competition",
+name:"MERCEDES BENZ GLC 200 4 MATIC AMG",
 price:"32 500 €",
 
 description:"",
