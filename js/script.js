@@ -291,6 +291,449 @@ images:[
 whatsapp:"4915124976768"
 },
 
+{
+name:"BMW X3 2.0 XDRIVE",
+price:"4.900 €",
+
+description:"",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars9/cover.jpg",
+"assets/cars/cars9/1.jpg",
+"assets/cars/cars9/2.jpg",
+"assets/cars/cars9/3.jpg",
+"assets/cars/cars9/4.jpg",
+"assets/cars/cars9/5.jpg",
+"assets/cars/cars9/6.jpg",
+"assets/cars/cars9/7.jpg",
+"assets/cars/cars9/8.jpg",
+"assets/cars/cars9/9.jpg",
+"assets/cars/cars9/10.jpg",
+"assets/cars/cars9/11.jpg",
+"assets/cars/cars9/12.jpg",
+"assets/cars/cars9/13.jpg",
+"assets/cars/cars9/14.jpg",
+"assets/cars/cars9/15.jpg",
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"MINI MINI One - Gepflegt jedohch Reparaturbedurftig",
+price:"3.500 €",
+
+description:"",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars10/cover.jpg",
+"assets/cars/cars10/1.jpg",
+"assets/cars/cars10/2.jpg",
+"assets/cars/cars10/3.jpg",
+"assets/cars/cars10/4.jpg",
+"assets/cars/cars10/5.jpg"
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Volkswagen Golf VII",
+price:"4.990 €",
+
+description:"",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars11/cover.jpg",
+"assets/cars/cars11/1.jpg",
+"assets/cars/cars11/2.jpg",
+"assets/cars/cars11/3.jpg",
+"assets/cars/cars11/4.jpg",
+"assets/cars/cars11/5.jpg",
+"assets/cars/cars11/6.jpg",
+"assets/cars/cars11/7.jpg",
+"assets/cars/cars11/8.jpg",
+"assets/cars/cars11/9.jpg",
+"assets/cars/cars11/10.jpg",
+"assets/cars/cars11/11.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"BMW 118 1 Limosine 2-trg. 118 i Advantage",
+price:"5.200 €",
+
+description:"",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars12/cover.jpg",
+"assets/cars/cars12/1.jpg",
+"assets/cars/cars12/2.jpg",
+"assets/cars/cars12/3.jpg",
+"assets/cars/cars12/4.jpg",
+"assets/cars/cars12/5.jpg",
+"assets/cars/cars12/6.jpg",
+"assets/cars/cars12/7.jpg",
+"assets/cars/cars12/8.jpg",
+"assets/cars/cars12/9.jpg",
+"assets/cars/cars12/10.jpg",
+"assets/cars/cars12/11.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+{
+name:"Mercedes 250CDI",
+price:"9.999 €",
+
+description:"AUTOMATIQUE Equipement haut de gamme",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars13/cover.jpg",
+"assets/cars/cars13/1.jpg",
+"assets/cars/cars13/2.jpg",
+"assets/cars/cars13/3.jpg",
+"assets/cars/cars13/4.jpg",
+"assets/cars/cars13/5.jpg",
+"assets/cars/cars13/6.jpg",
+"assets/cars/cars13/7.jpg",
+"assets/cars/cars13/8.jpg",
+"assets/cars/cars13/9.jpg",
+"assets/cars/cars13/10.jpg",
+"assets/cars/cars13/11.jpg",
+"assets/cars/cars13/12.jpg"
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz GLK 250 CDI",
+price:"7.500 €",
+
+description:"AUTOMATIQUE Equipement haut de gamme",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars14/cover.jpg",
+"assets/cars/cars14/1.jpg",
+"assets/cars/cars14/2.jpg",
+"assets/cars/cars14/3.jpg",
+"assets/cars/cars14/4.jpg",
+"assets/cars/cars14/5.jpg",
+"assets/cars/cars14/6.jpg"
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"DS3 SoChic Cabriolet",
+price:"4.950 €",
+
+description:"Conrôle technique récent",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars15/cover.jpg",
+"assets/cars/cars15/1.jpg",
+"assets/cars/cars15/2.jpg",
+"assets/cars/cars15/3.jpg",
+"assets/cars/cars15/4.jpg",
+"assets/cars/cars15/5.jpg",
+"assets/cars/cars15/6.jpg",
+"assets/cars/cars15/7.jpg",
+"assets/cars/cars15/8.jpg",
+"assets/cars/cars15/9.jpg",
+"assets/cars/cars15/10.jpg",
+"assets/cars/cars15/11.jpg",
+"assets/cars/cars15/12.jpg",
+"assets/cars/cars15/13.jpg",
+"assets/cars/cars15/14.jpg"
+
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Volksaen Polo 1.4",
+price:"4.950 €",
+
+description:"Trendline . Climatisation",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars16/cover.jpg",
+"assets/cars/cars16/1.jpg",
+"assets/cars/cars16/2.jpg",
+"assets/cars/cars16/3.jpg",
+"assets/cars/cars16/4.jpg",
+"assets/cars/cars16/5.jpg",
+"assets/cars/cars16/6.jpg",
+"assets/cars/cars16/7.jpg",
+"assets/cars/cars16/8.jpg",
+"assets/cars/cars16/9.jpg",
+"assets/cars/cars16/10.jpg",
+"assets/cars/cars16/11.jpg"
+
+
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Volksaen Polo IV 1.4I",
+price:"2.900 €",
+
+description:"Trendline . Radio",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars17/cover.jpg",
+"assets/cars/cars17/1.jpg",
+"assets/cars/cars17/2.jpg",
+"assets/cars/cars17/3.jpg",
+"assets/cars/cars17/4.jpg",
+"assets/cars/cars17/5.jpg",
+"assets/cars/cars17/6.jpg",
+"assets/cars/cars17/7.jpg",
+"assets/cars/cars17/8.jpg",
+"assets/cars/cars17/9.jpg",
+"assets/cars/cars17/10.jpg",
+"assets/cars/cars17/11.jpg",
+"assets/cars/cars17/12.jpg",
+"assets/cars/cars17/13.jpg",
+
+
+
+
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Volksaen Polo 1.2",
+price:"2.800 €",
+
+description:"United . 8-FACH.SHZ.PDC.TEMPO",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars18/cover.jpg",
+"assets/cars/cars18/1.jpg",
+"assets/cars/cars18/2.jpg",
+"assets/cars/cars18/3.jpg",
+"assets/cars/cars18/4.jpg",
+"assets/cars/cars18/5.jpg",
+"assets/cars/cars18/6.jpg",
+"assets/cars/cars18/7.jpg",
+"assets/cars/cars18/8.jpg",
+"assets/cars/cars18/9.jpg",
+"assets/cars/cars18/10.jpg",
+"assets/cars/cars18/11.jpg",
+"assets/cars/cars18/12.jpg",
+"assets/cars/cars18/13.jpg",
+"assets/cars/cars18/14.jpg",
+"assets/cars/cars18/15.jpg",
+"assets/cars/cars18/16.jpg",
+"assets/cars/cars18/17.jpg",
+"assets/cars/cars18/18.jpg",
+"assets/cars/cars18/19.jpg",
+"assets/cars/cars18/20.jpg",
+"assets/cars/cars18/21.jpg",
+"assets/cars/cars18/22.jpg",
+"assets/cars/cars18/23.jpg"
+
+
+
+
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz A 180 AMG",
+price:"5.500 €",
+
+description:"Trendline . Radio",
+stats:{
+year:"2022",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars19/cover.jpg",
+"assets/cars/cars19/1.jpg",
+"assets/cars/cars19/2.jpg",
+"assets/cars/cars19/3.jpg",
+"assets/cars/cars19/4.jpg",
+"assets/cars/cars19/5.jpg",
+"assets/cars/cars19/6.jpg",
+"assets/cars/cars19/7.jpg",
+"assets/cars/cars19/8.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz",
+price:"2.000 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars20/cover.jpg",
+"assets/cars/cars20/1.jpg",
+"assets/cars/cars20/2.jpg",
+"assets/cars/cars20/3.jpg",
+"assets/cars/cars20/4.jpg",
+"assets/cars/cars20/5.jpg",
+"assets/cars/cars20/6.jpg",
+"assets/cars/cars20/7.jpg",
+"assets/cars/cars20/8.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+
+
 
 
 ];
