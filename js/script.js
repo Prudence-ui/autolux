@@ -732,6 +732,355 @@ whatsapp:"4915124976768"
 },
 
 
+{
+name:"VWPolo 9N Goal",
+price:"3.100 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars21/cover.jpg",
+"assets/cars/cars21/1.jpg",
+"assets/cars/cars21/2.jpg",
+"assets/cars/cars21/3.jpg",
+"assets/cars/cars21/4.jpg",
+"assets/cars/cars21/5.jpg",
+"assets/cars/cars21/6.jpg",
+"assets/cars/cars21/7.jpg",
+"assets/cars/cars21/8.jpg",
+"assets/cars/cars21/9.jpg",
+"assets/cars/cars21/10.jpg",
+"assets/cars/cars21/11.jpg"
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz GLC 220 d 4MATIC Autom",
+price:"15.500 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars22/cover.jpg",
+"assets/cars/cars22/1.jpg",
+"assets/cars/cars22/2.jpg",
+"assets/cars/cars22/3.jpg",
+"assets/cars/cars22/4.jpg",
+"assets/cars/cars22/5.jpg",
+"assets/cars/cars22/6.jpg",
+"assets/cars/cars22/7.jpg",
+"assets/cars/cars22/8.jpg",
+"assets/cars/cars22/9.jpg"
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz GLC 250 d 4MATIC",
+price:"19.900 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars23/cover.jpg",
+"assets/cars/cars23/1.jpg",
+"assets/cars/cars23/2.jpg",
+"assets/cars/cars23/3.jpg",
+"assets/cars/cars23/4.jpg",
+"assets/cars/cars23/5.jpg",
+"assets/cars/cars23/6.jpg",
+"assets/cars/cars23/7.jpg",
+"assets/cars/cars23/8.jpg",
+"assets/cars/cars23/9.jpg"
+
+
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz E 220 d Autom",
+price:"8.950 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars24/cover.jpg",
+"assets/cars/cars24/1.jpg",
+"assets/cars/cars24/2.jpg",
+"assets/cars/cars24/3.jpg",
+"assets/cars/cars24/4.jpg",
+"assets/cars/cars24/5.jpg",
+"assets/cars/cars24/6.jpg",
+"assets/cars/cars24/7.jpg",
+"assets/cars/cars24/8.jpg",
+"assets/cars/cars24/9.jpg"
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"BMW 318 Baureihe 3 Lim. 318 i Advantage",
+price:"7.700 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars25/cover.jpg",
+"assets/cars/cars25/1.jpg",
+"assets/cars/cars25/2.jpg",
+"assets/cars/cars25/3.jpg",
+"assets/cars/cars25/4.jpg",
+"assets/cars/cars25/5.jpg",
+"assets/cars/cars25/6.jpg",
+"assets/cars/cars25/7.jpg",
+"assets/cars/cars25/8.jpg",
+"assets/cars/cars25/9.jpg",
+"assets/cars/cars25/10.jpg",
+"assets/cars/cars25/11.jpg"
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"BMW 320 Limousine 320d Efficient Dynamics Edditon",
+price:"7.450 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars26/cover.jpg",
+"assets/cars/cars26/1.jpg",
+"assets/cars/cars26/2.jpg",
+"assets/cars/cars26/3.jpg",
+"assets/cars/cars26/4.jpg",
+"assets/cars/cars26/5.jpg",
+"assets/cars/cars26/6.jpg",
+"assets/cars/cars26/7.jpg",
+"assets/cars/cars26/8.jpg",
+"assets/cars/cars26/9.jpg",
+"assets/cars/cars26/10.jpg",
+"assets/cars/cars26/11.jpg",
+"assets/cars/cars26/12.jpg",
+"assets/cars/cars26/13.jpg",
+"assets/cars/cars26/14.jpg"
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"BMW 318 d Gran Turismo Advantage PANO NAVI ACC AHZ",
+price:"7.700 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars27/cover.jpg",
+"assets/cars/cars27/1.jpg",
+"assets/cars/cars27/2.jpg",
+"assets/cars/cars27/3.jpg",
+"assets/cars/cars27/4.jpg",
+"assets/cars/cars27/5.jpg",
+"assets/cars/cars2/6.jpg",
+"assets/cars/cars27/7.jpg",
+"assets/cars/cars27/8.jpg",
+"assets/cars/cars27/9.jpg",
+"assets/cars/cars27/10.jpg",
+"assets/cars/cars27/11.jpg",
+"assets/cars/cars27/12.jpg",
+"assets/cars/cars27/13.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+{
+name:"Mercedes-Benz C 200 T BlueTec",
+price:"10.999 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars28/cover.jpg",
+"assets/cars/cars28/1.jpg",
+"assets/cars/cars28/2.jpg",
+"assets/cars/cars28/3.jpg",
+"assets/cars/cars28/4.jpg",
+"assets/cars/cars28/5.jpg",
+"assets/cars/cars28/6.jpg",
+"assets/cars/cars28/7.jpg",
+"assets/cars/cars28/8.jpg",
+"assets/cars/cars28/9.jpg",
+"assets/cars/cars28/10.jpg",
+"assets/cars/cars28/11.jpg",
+"assets/cars/cars28/12.jpg",
+"assets/cars/cars28/13.jpg"
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+
+{
+name:"Mercedes-Benz CLA 200d AMG Line",
+price:"11.499 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars29/cover.jpg",
+"assets/cars/cars29/1.jpg",
+"assets/cars/cars29/2.jpg",
+"assets/cars/cars29/3.jpg",
+"assets/cars/cars29/4.jpg",
+"assets/cars/cars29/5.jpg",
+"assets/cars/cars29/6.jpg",
+"assets/cars/cars29/7.jpg",
+"assets/cars/cars29/8.jpg",
+"assets/cars/cars29/9.jpg",
+"assets/cars/cars29/10.jpg",
+"assets/cars/cars29/11.jpg",
+"assets/cars/cars29/12.jpg",
+"assets/cars/cars29/13.jpg",
+"assets/cars/cars29/14.jpg",
+"assets/cars/cars29/15.jpg",
+"assets/cars/cars29/16.jpg"
+
+
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
+{
+name:"Mercedes-Benz CLA 200 Shooting Brake",
+price:"12.900 €",
+
+description:"CLASSE A",
+stats:{
+year:"2015",
+power:"510 HP",
+fuel:"Essence",
+transmission:"Automatique"
+},
+
+images:[
+"assets/cars/cars30/cover.jpg",
+"assets/cars/cars30/1.jpg",
+"assets/cars/cars30/2.jpg",
+"assets/cars/cars30/3.jpg",
+"assets/cars/cars30/4.jpg",
+"assets/cars/cars30/5.jpg",
+"assets/cars/cars30/6.jpg"
+
+
+],
+
+whatsapp:"4915124976768"
+},
+
+
 
 
 
